@@ -204,6 +204,7 @@ letter-spacing: 0.04em;
 cursor: pointer;
 font-family: inherit;
 white-space: nowrap;
+min-width: 169px;
 
 }
 
