@@ -408,7 +408,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 margin-bottom: 16px;
-display: block;
 width: 115px;
 height: 24px;
 }
@@ -418,7 +417,9 @@ color: #f4f4fd;
 }
 
 .footer-text {
-max-width: 264px
+max-width: 264px;
+word-wrap: break-word;
+overflow-wrap: break-word;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
